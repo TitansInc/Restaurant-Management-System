@@ -1,0 +1,20 @@
+ JScrollPane scrollPane = new JScrollPane();
+
+   JViewport viewport = new JViewport();
+
+
+ //Component that need to be added in Scroll pane//
+
+   viewport.setView(new JPanel());
+
+   viewport.setOpaque(false);
+
+   scrollPane.setViewport(viewport);
+
+   scrollPane.getViewport().setOpaque(false);
+
+   scrollPane.setOpaque(false);
+
+ // Add Scrollpane to Jframe or JPanel//
+
+   add( scrollPane,BorderLayout.CENTER);

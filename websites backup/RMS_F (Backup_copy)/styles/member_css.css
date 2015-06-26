@@ -1,0 +1,44 @@
+body{
+    font-family:oklahoma;
+    background:white;
+}
+caption{
+    background:black;
+    padding:10px;
+    color:white;
+        background-image: url("../Images/stymages/32.png");
+
+}
+
+#login_form,#registration_form{
+    background-image: url("../Images/stymages/27.png");
+}
+#login_form table,#registration_form table{
+    width:400px;       
+    background-image: url("../Images/stymages/11.png");
+    border:3px double green;
+    padding:10px 20px;
+    border-radius:0px 0px 18px 18px;
+}
+table td{
+    vertical-align:top;
+    border:none;
+    padding:1px 10px;
+}
+input{
+    font-family:monospace;
+}
+span#unfilledError,i#indicator{
+    color:crimson;
+    padding:3px;
+    position:fixed;
+
+}
+span#invalidDatatypeError{
+    color:orange;
+    padding:3px;
+    position:fixed;
+}
+iframe{
+    background-image: url("../Images/stymages/8.png");
+}

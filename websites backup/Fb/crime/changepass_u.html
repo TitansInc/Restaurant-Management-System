@@ -1,0 +1,145 @@
+
+<html>
+<head>
+<style type="text/css">
+body
+{
+background: black;
+
+}
+.header {
+	width: 1200px;
+	height: 110px;
+	-moz-border-radius:25px;
+	margin: auto;
+	background:url("new/red_bg.jpg") repeat-x;
+	color: #ffffff;
+	text-align:LEFT;
+	text-shadow:10px 10px 3px #181818;
+	font-size:40px;
+	padding:20px;
+	//font-weight:bold;
+	font-family:free serif;
+	font-variant:small-caps;
+}
+.icon{
+	position: absolute;
+	width: 100px;
+	margin:auto;
+	height: 50px;
+	left: 1150px;
+	top:120px;
+	font-size:14px;
+}
+.font
+{
+font-size:14px;
+color: red;
+//font-family:free serif;
+}
+.td1
+{
+text-align:justify;
+padding-left:130px;
+padding-top:25px;
+width:600px;
+}
+.td2
+{
+position:absolute;
+text-align:left;
+padding-left:30px;
+left:900px;
+top:180px;
+width:250px;
+color:white;
+}
+
+a.icon1:link,a.icon1:visited {color:D8D8D8;text-decoration:none;font-weight:bold;font-size:13px;text-align:"center";}  
+a.icon1:hover{color:#ffffff;text-decoration:underline;}
+
+a:link,a:visited {color:#c8c8c8;text-decoration:none;font-size:13px;}  
+a:hover{color:#ffffff;text-decoration:underline;}
+h5{color:#e80000;text-decoration:underline;}
+</style>
+
+<script type="text/javascript">
+function doJob()
+{
+
+  var e=document.getElementById("old");
+  var p=document.getElementById("new");
+  var m=document.getElementById("cnew");
+  var submit=document.getElementById("submit");
+   
+  if(e.value == "" || p.value == "" || m.value == "")
+	{
+		alert("Fill all the fields");submit.innerHTML=("");return false;
+	}
+else if(p.value.length<6)
+	{
+		alert("weak password");
+		submit.innerHTML=("");
+		return false;
+	}
+else if((p.value) != (m.value))
+{
+	alert("Passwords not matched");
+	submit.innerHTML=("");
+	return false;
+}
+}
+</script>
+
+
+</head>
+<body>
+<div class="header">
+		<p>Crime Management System</>
+<div class="icon"><a class="icon1" href="home_u.html">Home |</a>
+<a class="icon1" href="logout.jsp">Logout</a></div>
+
+</div>
+<table align="center" height=70%>
+<tr class="font">
+<td class="td1"><p><table class="font" >
+<form action="changepass.jsp" method="post">
+<tr><td align="right" height="51">Oldpassword:</td><td><input type ="password" name="old" id="old"></td></tr>
+<tr><td align="right"height="51">NewPassword:</td><td><input type="password" name="new" id="new"></td></tr>
+<tr><td align="right"height="51">ConfirmPassword:</td><td><input type="password" name="cnew" id="cnew"></td></tr>
+<center><td align="right" height="51"><input type = "submit" value="Submit" id="submit" onclick="return doJob()"></td></center>
+<center><td><input type = "reset" value="Cancel"></td></center>
+</form></table>
+</td>
+</tr>
+</table>
+<div class="td2">
+<ul>
+			<li>
+				<h5>New Additions</h5>
+				<ul>
+					<li><a href="complaint_u.html">Complaint</a></li>
+					<li><a href="crimereport_u.html">Crime Report</a></li>
+					<li><a href="missingperson_u.html">Missing Person </a></li>
+					<li><a href="missingperson_ureport.jsp">View Missing Persons </a></li>
+					<li><a href="mostwanted_ureport.jsp">View Mostwanted Persons</a></li>
+					<li><a href="message_u.html">Message</a></li>
+					<li><a href="viewstatus_u.jsp">View Status</a></li>
+					<li><a href="viewall_u.jsp">View Status</a></li>
+			    </ul>
+			</li>
+			<li>
+				<h5>Account Settings </h5>
+				<ul>
+					<li><a href="changepass_u.html">Change Password</a></li>
+					
+			   </ul>
+			</li>
+
+		</ul>
+  </div>
+<div align="center">
+<img src="new/footer.jpg"/>	
+</div>
+</body>
+</html>

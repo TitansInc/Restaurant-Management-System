@@ -1,0 +1,360 @@
+#main
+{
+	padding-left: 0px;
+	background-image: url('Images/Bg/leftshadow.png');
+	border-radius: 10px 10px 10px 10px;
+}
+#c11
+{
+	height: 30px;
+	width: 960px;
+	background-image: url('Images/Bg/bl.png');
+	border-radius: 10px 10px 10px 10px;
+}
+#c12
+{
+	height: 30px;
+	width: 300px;
+	font-weight: bold;
+	text-align: center;
+	color: blueviolet;
+	background-image: url('Images/Bg/bl.png');
+	border-radius: 10px 10px 10px 10px;
+}
+#c21
+{
+	width: 960px;
+	background-image: url('Images/stymages/39.png');
+	border-radius: 10px 10px 10px 10px;
+}
+#c22
+{
+	vertical-align:top;
+	height: 430px;
+	width: 300px;
+	background-image: url('Images/stymages/38.png');
+	border-radius: 10px 10px 10px 10px;
+}
+#orderno
+{
+	font-weight:bold;
+	color:crimson;
+}
+#orderlist
+{
+	font-size:24px;
+	font-weight:bold;
+	color:orange;
+	
+}
+#Items_Div
+{
+	width: 100%;
+	height: 440px;
+	background-image: url('Images/stymages/39.png');
+	background-color: floralwhite;	
+}
+.names
+{
+	color: crimson;
+	font-weight: bold;
+	text-align: center;	
+}
+.rates
+{
+	color: orange;
+	font-weight: bold;
+	font-size: 17px;	
+}
+div.items
+{
+	float: left;
+	padding: 4px;
+	height: 210px;
+	width: 182px;
+	border-radius: 15px 15px 15px 15px;
+	background-color: lightgray;
+}
+#text
+{
+	font-size: 17px;	
+}
+img.Items_images
+{
+	height: 160px;
+	width: 180px;	
+	padding-top: 1px;
+	border-radius: 10px 10px 10px 10px;
+	border-color: red;
+	border-width: 20px
+}
+.rate
+{
+	height: 20px;
+	width: 20px;	
+}
+#index
+{
+	vertical-align:top;
+	padding-left: 3px;
+	width: 298px;
+	background-image: url('Images/Bg/b1.png');
+	border-radius: 10px 10px 10px 10px;
+}
+#slected_item
+{
+	vertical-align: top;
+}
+#user_rate
+{
+		position: absolute;	
+		padding-left: 20px;	
+		color: crimson;
+		font-weight: bolder;
+		width: 250px;
+}
+.u_rate
+{
+	height: 25px;
+	width: 20px;	
+}
+#show_image
+{
+	width: 290px;	
+	height: 240px;
+	border-radius: 10px 10px 10px 10px;
+}
+#show_name
+{
+	color: blue;
+	font-weight: bold;
+}
+#show_category
+{
+	color: brown;
+	font-style: italic;
+	font-weight: bold;
+}
+#show_price
+{
+	color:darkgreen;
+	font-style:italic;
+	font-weight: bold;
+}
+#show_rating
+{
+		color:darkmagenta;
+	font-style:italic;
+	font-weight: bold;
+}
+#show_description
+{
+	height: 50px;	
+			color:deeppink;
+	font-style:italic;
+	font-weight: 300;
+}
+#cat
+{
+	color: green;
+	font-weight: bold;	
+}
+#quant
+{
+	color:darkorchid;
+	font-style:italic;
+	font-weight: bold;	
+}
+#quantity
+{
+	width: 40px;	
+}
+#Cart
+{
+	width: 1270px;
+	padding-top: 10px;
+
+
+	border-radius: 10px 10px 10px 10px;
+}
+.MName
+{
+	width:300px;
+	background-color: lavender;
+	color: blue;
+	font-weight: bold;
+	border-radius: 10px 10px 10px 10px;
+}
+#Method
+{
+	font-weight: bold;
+	color: green;	
+}
+.quantity
+{
+
+	width:150px;
+	background-color:lavender;
+		color: orange;
+	font-weight: bold;
+	border-radius: 10px 10px 10px 10px;
+}
+.price
+{
+		width:150px;
+	background-color: lavender;
+		color: green;
+	font-weight: bold;
+	border-radius: 10px 10px 10px 10px;
+}
+.sub_total
+{
+	width:150px;
+	background-color:lavender;
+		color: chocolate;
+	font-weight: bold;
+	border-radius: 10px 10px 10px 10px;
+}
+.del
+{
+	width:130px;
+	background-color:lavender;
+	color: crimson;
+	font-weight: bold;
+	border-radius: 10px 10px 10px 10px;
+}
+.delete
+{
+	width: 100px;
+	height: 20px;	
+}
+#lst
+{
+	width: 150px;
+	height: 25px;
+	font-size: 17px;	
+}
+.RGU
+{
+	width: 200px;	
+}
+#Delivery_Addr
+{
+	
+}
+#address
+{
+	resize:none;
+	font-size: 17px;
+	width: 250px;	
+}
+.sliders
+{
+	width: 200px;	
+	background-color: pink;
+}
+#graph
+{
+	width: 600px;
+	height: 300px;
+	background-color: lightgray;
+	border-radius:10px 10px 10px 10px;
+}
+div.range
+{
+	width: 20px;
+	font-weight: bold;
+	height: 50px;
+	vertical-align: top;
+}
+.graph
+{
+	height: 300px;
+	width: 100px;
+	border-radius:10px 10px 10px 10px;
+}
+#graphic
+{
+	border-radius:10px 10px 10px 10px;
+	vertical-align: bottom;;	
+}
+.cl
+{
+	background-color: chocolate;	
+	border-radius:10px 10px 10px 10px;
+	color: floralwhite;
+	text-align: center;
+	font-weight: bold;
+}
+#newTime
+{
+	background-color: lightgray;
+	color: crimson;
+	width: 300px;	
+	border-radius:5px 5px 5px 5px;
+}
+#comments
+{
+	font-size: 16px;
+}
+#rfhead
+{
+	color: crimson;
+	font-weight: bold;
+}
+#message
+{
+	color: green;
+	font-size: 17px;	
+}
+#cs
+{
+	width: 300px;	
+}
+.fdfdf
+{
+	vertical-align: bottom;	
+}
+#memhead,#pls
+{
+	background-color: lightblue;	
+	font-weight: bold;
+	color: crimson;
+}
+#DNo
+{
+	font-weight: bold;		
+	color: crimson;
+}
+#username
+{
+	font-weight: bold;		
+	color: green;
+}
+.me
+{
+	color: crimson;
+}
+.memid,.memname,.mememail,.memphone
+{
+	font-weight: bold;
+	color: purple;
+	border-radius:10px 10px 10px 10px;
+}
+.rrr
+{
+	color: purple;
+	font-weight: bold;
+	border-radius:10px 10px 10px 10px;
+}
+#userid
+{
+	color: crimson;
+	background-color: white;
+	width: 300px;
+	font-size: 18px;
+}
+body#feedback
+{
+	background-image: url("Images/skymages/37.png");
+}
